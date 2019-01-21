@@ -26,38 +26,33 @@
   `java jdk` 설치해야 함.
 
 * 홈페이지에서 다운로드 후, C드라이브에 저장.`윈도우키 + r`에서 cmd실행
-
-![1548054536952](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\1548054536952.png)
-
-![1548054607587](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\1548054607587.png)
+![1548054536952](https://user-images.githubusercontent.com/38032500/51465366-24787d00-1dab-11e9-82e0-506e71e7aa99.png)
+![1548054607587](https://user-images.githubusercontent.com/38032500/51465369-25a9aa00-1dab-11e9-9e79-4e594720539f.png)
 
 * 관리자 권한으로 데이터베이스를 세팅하기 위해 필요. 관리자의 비밀번호 설정. 엔터를 칠경우 자동으로 비밀번호 설정
+![1548054637316](https://user-images.githubusercontent.com/38032500/51465374-26dad700-1dab-11e9-8172-83a147cc340e.png)
 
-![1548054637316](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\1548054637316.png)
 
-* 
-
-![1548054723206](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\1548054723206.png)
+![1548054723206](https://user-images.githubusercontent.com/38032500/51465376-280c0400-1dab-11e9-9ebf-079c4f9ec745.png)
 
 * 2480을 통해 url에 입력한 후 접속.`localhost:2480`
 
-![1548054825788](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\1548054825788.png)
+![1548054825788](https://user-images.githubusercontent.com/38032500/51465385-2a6e5e00-1dab-11e9-9a2f-5dca2bf937bb.png)
 
 * OrientDB에서 제공하는 관리자 모드 화면
 
-![1548054884507](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\1548054884507.png)
-
+![1548054884507](https://user-images.githubusercontent.com/38032500/51465387-2b9f8b00-1dab-11e9-9251-1e4ade117232.png)
 * `NEW DB`를 통해서 데이터베이스를 생성.
 
-  ![1548054975172](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\1548054975172.png)
+![1548054975172](https://user-images.githubusercontent.com/38032500/51465392-2f331200-1dab-11e9-9407-138942b3579f.png)
 
 * `CREATE DATABASE` 클릭.
 
-* ![1548055019560](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\1548055019560.png)
+* ![1548055019560](https://user-images.githubusercontent.com/38032500/51465400-31956c00-1dab-11e9-988f-4f17fc351bca.png)
 
 * 데이터베이스 생성
 
-![1548055048341](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\1548055048341.png)
+![1548055048341](https://user-images.githubusercontent.com/38032500/51465403-34905c80-1dab-11e9-8843-f17cbc7adeea.png)
 
 
 
@@ -69,7 +64,7 @@
 
 * `NEW VERTEX`를 통해서 새로운 클래스(topic) 생성
 
-  ![1548055244124](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\1548055244124.png)
+![1548055244124](https://user-images.githubusercontent.com/38032500/51465408-35c18980-1dab-11e9-92fd-48d8dba38ab1.png)
 
   * Graph형태이기 때문에 "Vertice"와  ''Edge"가  존재. 이 클래스는 자동으로 그래프 모드로 데이터베이스를 생성.
   * Vertice Classs
@@ -77,21 +72,20 @@
 
 * `NEW PROPERTY`를  통해 column을 정의. 이를 통해 테이블 구조를 정의한다.
 
-  ![1548056094050](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\1548056094050.png)
+![1548056094050](https://user-images.githubusercontent.com/38032500/51465430-3e19c480-1dab-11e9-9fc5-2fe948979e36.png)
 
-  ![1548056128777](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\1548056128777.png)
+![1548056128777](https://user-images.githubusercontent.com/38032500/51465435-3fe38800-1dab-11e9-8891-3789f18ad69d.png)
 
 * `NEW RECORD`를 통해 데이터를 생성.(행 (row) 추가)
 
-![1548056235773](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\1548056235773.png)
+![1548056235773](https://user-images.githubusercontent.com/38032500/51465439-470a9600-1dab-11e9-8fec-39657a7b9ffb.png)
 
-![1548056287119](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\1548056287119.png)
+![1548056287119](https://user-images.githubusercontent.com/38032500/51465450-4a9e1d00-1dab-11e9-93b3-8856f06ca00d.png)
 
 * `ADD FIELD`를 통해 새로운 column을 추가할 수 있음.
 
 * `BROWSE`탭에서 SQL문을 통해서 실행.
-
-  ![1548056423178](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\1548056423178.png)
+![1548056423178](https://user-images.githubusercontent.com/38032500/51465454-4c67e080-1dab-11e9-9c8a-c8048ec97877.png)
 
 * `EDGE`를 사용하면 훨씬 더 복잡한 관계형 테이블을 생성할 수 있음.
 
@@ -99,7 +93,7 @@
 
 * 여기서 나타나는 점 하나가 오라클 DB에서는 테이블을 나타냄. 관계형 데이터베이스에서는 `JOIN`을 통해 나타내는데, OrientDB은 `edge`를 통해서 나타냄.(관계성 부여)
 
-  ![1548056546964](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\1548056546964.png)
+![1548056546964](https://user-images.githubusercontent.com/38032500/51465462-4ffb6780-1dab-11e9-9f68-aa899b09e231.png)
 
 ### 자바스크립트를 통한 OrientDB 실행
 
@@ -143,7 +137,7 @@ db.record.get('#1:1')
 });
 ```
 
-![1548057534045](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\1548057534045.png)
+![1548057534045](https://user-images.githubusercontent.com/38032500/51465483-5d185680-1dab-11e9-9cbb-11fe0be432d7.png)
 
 * 노란색으로 색칠한 부분이 식별자. 이 식별자를 통해 해당 행의 데이터를 가져올 수 있다. 관계형 데이터베이스에서는 primary key를 사용함. 
 
@@ -159,7 +153,7 @@ db.query(sql).then(function(results){
 
 ```
 
-![1548059395040](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\1548059395040.png)
+![1548059395040](https://user-images.githubusercontent.com/38032500/51465498-60abdd80-1dab-11e9-9866-4bca15f2d43c.png)
 
 데이터들이 배열로 출력.
 
@@ -178,7 +172,7 @@ db.query(sql,param).then(function(results){
 });
 ```
 
-![1548059567311](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\1548059567311.png)
+![1548059567311](https://user-images.githubusercontent.com/38032500/51465503-6275a100-1dab-11e9-95f2-d465703e2f18.png)
 
 * **INSERT**
 
@@ -196,9 +190,9 @@ db.query(sql,param).then(function(results){
 });
 ```
 
-![1548060285911](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\1548060285911.png)
+![1548060285911](https://user-images.githubusercontent.com/38032500/51465518-66a1be80-1dab-11e9-824f-018fb069268d.png)
 
-![1548060337602](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\1548060337602.png)
+![1548060337602](https://user-images.githubusercontent.com/38032500/51465526-6acddc00-1dab-11e9-91e2-b6e79beecff1.png)
 
 * **UPDATE**
 
@@ -210,11 +204,11 @@ db.query(sql,{params:{title:'Expressjs',rid:'#47:0'}}).then(function(results){
 })
 ```
 
-![1548061184352](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\1548061184352.png)
+![1548061184352](https://user-images.githubusercontent.com/38032500/51465535-6e616300-1dab-11e9-9319-69d87f6cd06f.png)
 
 수정하게 되면 OrientDB 자바 스크립트는 몇개의 행이 수정되었는지 보여줌. 즉 위 결과 값은 1개의 행이 수정되었다는 것을 나타낸다.
 
-![1548061284598](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\1548061284598.png)
+![1548061284598](https://user-images.githubusercontent.com/38032500/51465541-70c3bd00-1dab-11e9-8fd4-b58f57dd5c3d.png)
 
 * **DELETE**
 
@@ -228,10 +222,9 @@ db.query(sql,{params:{rid:'#47:0'}}).then(function(results){
 
 `delete`를 수행할 때, vertext를 삭제할 경우 꼭 `DELETE VERTEX`라고 써줘야 함.
 
-![1548061472000](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\1548061472000.png)
+![1548061472000](https://user-images.githubusercontent.com/38032500/51465545-73261700-1dab-11e9-9fe0-99e96305509a.png)
 
 UPDATE와 마찬가지로 한 행이 삭제되었다는 것을 알려줌.(리턴값 : results는 몇개의 행이 수정되고 삭제됐는지를 알려준다.)
-
-![1548061511979](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\1548061511979.png)
+![1548061511979](https://user-images.githubusercontent.com/38032500/51465551-74efda80-1dab-11e9-95cd-c9c7b18b428c.png)
 
 한개의 행이 삭제된 것을 알 수 있음.
